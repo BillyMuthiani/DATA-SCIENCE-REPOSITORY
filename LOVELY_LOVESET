@@ -1,0 +1,21 @@
+lovely_loveseat_description="Lovely Loveseat. Tufted polyester blend on wood. 32 inches high x 40 inches wide x 30 inches deep. Red or white."
+print(lovely_loveseat_description)
+lovely_loveseat_price=float(254.00)
+print(lovely_loveseat_price)
+stylish_settee_description='Stylish Settee. Faux leather on birch. 29.50 inches high x 54.75 inches wide x 28 inches deep. Black.'
+print(stylish_settee_description)
+sales_tax=0.088
+print(sales_tax)
+# INITIALIZE CUSTOMERS TOTAL AND ITEMIZATION
+customer_one_total=0
+customer_one_itemization=''
+
+customer_one_total+=290
+customer_one_itemization+='stylish birkin bag'
+print(customer_one_itemization)
+customer_one_total+=500
+print(customer_one_total)
+customer_one_itemization+=',luxurious lamp'
+print (customer_one_itemization)
+customer_one_tax=customer_one_total*sales_tax
+print(customer_one_tax)
